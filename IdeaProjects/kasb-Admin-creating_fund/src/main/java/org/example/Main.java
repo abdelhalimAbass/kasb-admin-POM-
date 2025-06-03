@@ -20,6 +20,9 @@ public class Main {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         create_fund_page1 fundcreation=new create_fund_page1(driver);
         fundcreation.createFundPage1();
+        fundcreation.fund_name_en(driver);
+        fundcreation.termsConditoins(driver);
+        fundcreation.fundType(driver);
 
         }
     }
