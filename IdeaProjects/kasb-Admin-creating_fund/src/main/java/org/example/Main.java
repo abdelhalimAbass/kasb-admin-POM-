@@ -23,6 +23,7 @@ public class Main {
         fundcreation.fund_name_en(driver);
         fundcreation.termsConditoins(driver);
         fundcreation.fundType(driver);
+        DataSheetpage page2=new DataSheetpage(driver);
 
         }
     }

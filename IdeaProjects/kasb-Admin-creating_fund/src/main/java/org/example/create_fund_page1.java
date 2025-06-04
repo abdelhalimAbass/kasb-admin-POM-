@@ -51,7 +51,7 @@ public class create_fund_page1 {
 
         System.out.println("click button");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.findElement(By.id("translations_en_name_inp")).sendKeys("صندوق البناء والتنمية");
+        driver.findElement(By.id("translations_en_name_inp")).sendKeys("CR fund");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         TinyMCEHelper.injectIntoTinyMCE(driver, "translations_en_description_inp",
                 "<h1>صندوق للتنمية العقارية بيع شراء</h1><p>صندوق للتنمية العقارية بيع شراء</p>");
